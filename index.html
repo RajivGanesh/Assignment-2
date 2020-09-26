@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Form - Public Primary School Admission</title>
+    </head>
+    <body>
+        <!-- add form name -->
+        <!-- add instructions -->
+        <form class="" action="application-dat.html" method="GET">
+            <div class="">
+                <label for="school-name">Name of School</label>
+                <input id="school-name" type="text" name="school-name">
+            </div>
+            <!-- child information section-->
+            <!-- add instructions -->
+            <div class="">
+                <label for="child-surname">Surname</label>
+                <input id="child-surname" type="text" name="child-surname">
+                <label for="child-firstname">First Name</label>
+                <input id="child-firstname" type="text" name="child-firstname">
+                <label for="child-othernames">Other Names</label>
+                <input id="child-othernames" type="text" name="child-othernames">
+            </div>
+            <div class="">
+                <label>Gender</label>
+                <div class="">
+                    <label for="child-male">Male</label>
+                    <input id="child-male" type="radio" name="child-gender" value="Male">
+                    <label for="child-female">Female</label>
+                    <input id="child-female" type="radio" name="child-gender" value="Female">
+                </div>
+            </div>
+            <div class="">
+                <label for="child-religion">Religion</label>
+                <input type="text" name="child-religion">
+            </div>
+            <div class="">
+                <label for="child-dob">Date of Birth</label>
+                <input id="child-dob" type="date" name="child-dob">
+                <label for="child-pin">PIN (Birth Certificate)</label>
+                <input id="child-pin" type="text" name="child-pin">
+            </div>
+            <div class="">
+                <label for="child-address">Address (Same as on utility bill.)</label>
+                <input id="child-address" type="text" name="child-address">
+            </div>
+            <div class="">
+                <label>Is the child's immunization up to date?</label>
+                <div class="">
+                    <label for="immunized-y">Yes</label>
+                    <input id="immunized-y" type="radio" name="child-immunized" value="yes">
+                    <label for="immunized-n">No</label>
+                    <input id="immunized-n" type="radio" name="child-immunized" value="no">
+                </div>
+            </div>
+            <div class="">
+                <label for="child-nationality">Nationality</label>
+                <input id="child-nationality" type="text" name="child-nationality">
+                <div class="">
+                    <label>Valid student permit (If required)</label>
+                        <div class="">
+                            <label for="stupermit-y">Yes</label>
+                            <input id="stupermit-y" type="radio" name="student-permit" value="yes">
+                            <label for="stupermit-n">No</label>
+                            <input id="stupermit-n" type="radio" name="student-permit" value="no">
+                        </div>
+                </div>
+            </div>
+            <button type="reset" name="reset-btn">Reset</button>
+            <button type="submit" name="submit-btn">Submit</button>
+        </form>
+    </body>
+</html>
