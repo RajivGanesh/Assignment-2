@@ -1,0 +1,149 @@
+                                                            /* Page defaults */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #070F26;
+}
+
+header, footer {
+    flex-shrink: 0;
+}
+
+.page-content {
+    flex-grow: 1;
+    width: 70%;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    background: #000000;
+    height: 2em;
+    width: 100%;
+}
+
+                                                            /* Page styles */
+
+                            /* header styles */
+.page-title {
+    background-image: url('/img/moe.jpg');
+    color: #ffffff;
+    height: 5em;
+}
+
+.page-title .visor {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.page-title h1 {
+    font-family: 'Rokkitt', serif;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.7em;
+}
+
+                            /* styles in main */
+.page-note {
+    height: 10em;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 1.25em;
+    margin: 1.5em auto 0;
+    padding: 2em 2em 1em;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-note h2 {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.page-note p {
+    font-size: 0.85em;
+    padding-top: 1em;
+}
+
+.page-note ol {
+    padding-left: 1em;
+}
+
+.page-note li {
+    font-size: 0.85em;
+}
+
+                            /* Form styles */
+.form-section {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 1.25em;
+    margin: 1.5em auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item-vert {
+    display: flex;
+    flex-direction: column;
+    margin: 0.6em;
+}
+
+.form-item-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-label {
+    font-family: 'Anton', sans-serif;;
+    font-size: 0.85em;
+    padding: 0.5em 0 0.5em;
+}
+
+.input-box {
+    background: #f9f9f9;
+    font-size: 0.85em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    outline: none;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    transition: background 0.25s, border-color 0.25s;
+}
+
+.input-box-area {
+    height: 3.4em;
+    background: #f9f9f9;
+    font-size: 0.85em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    outline: none;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    transition: background 0.25s, border-color 0.25s;
+}
+
+.input-box:focus {
+    background: #ffffff;
+    border: 1px solid #116EF2;
+    box-shadow: 0px 0px 49px -1px rgba(87,139,242,0.5);
+}
