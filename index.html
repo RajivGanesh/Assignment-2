@@ -42,7 +42,7 @@
                     </div>
                     <div class="form-item-vert">
                         <label class="form-label" for="school-name">Name of School<em class="required"> * </em></label>
-                        <input id="school-name" class="input-box" type="text" placeholder="Enter the name of the school for which you are applying" name="school-name">
+                        <input id="school-name" class="input-box" type="text" placeholder="Enter the name of the school for which you are applying" name="school-name" required>
                     </div>
                 </section>
                     <!-- child information section-->
@@ -54,9 +54,9 @@
                     <div class="child-form">
                         <div class="form-item-vert">
                             <label class="form-label" for="child-surname">Surname<em class="required"> * </em></label>
-                            <input id="child-surname" class="input-box" type="text" placeholder="Child's last name" name="child-surname">
+                            <input id="child-surname" class="input-box" type="text" placeholder="Child's last name" name="child-surname" required>
                             <label class="form-label" for="child-firstname">First Name<em class="required"> * </em></label>
-                            <input id="child-firstname" class="input-box" type="text" placeholder="Child's first name" name="child-firstname">
+                            <input id="child-firstname" class="input-box" type="text" placeholder="Child's first name" name="child-firstname" required>
                             <label class="form-label" for="child-othernames">Other Names</label>
                             <input id="child-othernames" class="input-box" type="text" placeholder="Child's other legal names" name="child-othernames">
                         </div>
@@ -75,15 +75,15 @@
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="child-dob">Date of Birth<em class="required"> * </em></label>
-                            <input id="child-dob" class="input-box" type="date" name="child-dob">
+                            <input id="child-dob" class="input-box" type="date" name="child-dob" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="child-pin">PIN (Birth Certificate)<em class="required"> * </em></label>
-                            <input id="child-pin" class="input-box" type="text" placeholder="Located on birth certificate" name="child-pin">
+                            <input id="child-pin" class="input-box" type="text" placeholder="Located on birth certificate" name="child-pin" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="child-address">Address (Same as on utility bill.)<em class="required"> * </em></label>
-                            <textarea id="child-address" class="input-box" placeholder="Child's home address" name="child-address" rows="4" cols="80"></textarea>
+                            <textarea id="child-address" class="input-box" placeholder="Child's home address" name="child-address" rows="4" cols="80" required></textarea>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label">Is the child's immunization up to date?<em class="required"> * </em></label>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="child-nationality">Nationality<em class="required"> * </em></label>
-                            <input id="child-nationality" class="input-box" type="text" placeholder="Child's nationality" name="child-nationality">
+                            <input id="child-nationality" class="input-box" type="text" placeholder="Child's nationality" name="child-nationality" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label">Valid student permit  *( If required )</label>
@@ -119,13 +119,13 @@
                         <div id="pg" class="form-item-vert">
                             <h2>Parent/Guardian 1</h2>
                             <label class="form-label" for="fam1-relation">Relationship to child<em class="required"> * </em></label>
-                            <input id="fam1-relation" class="input-box" type="text" placeholder="Legal relation to child" name="pg1-relationship">
+                            <input id="fam1-relation" class="input-box" type="text" placeholder="Legal relation to child" name="pg1-relationship" required>
                             <label class="form-label" for="fam1-name">Full Name<em class="required"> * </em></label>
-                            <input id="fam1-name" class="input-box" type="text" placeholder="Parent/guardian first and last names" name="pg1-name">
+                            <input id="fam1-name" class="input-box" type="text" placeholder="Parent/guardian first and last names" name="pg1-name" required>
                             <label class="form-label" for="fam1-contact">Contact<em class="required"> * </em></label>
-                            <input id="fam1-contact" class="input-box" type="tel" placeholder="Phone number" name="pg1-contact">
+                            <input id="fam1-contact" class="input-box" type="tel" placeholder="Phone number" name="pg1-contact" required>
                             <label class="form-label" for="fam1-address">Address<em class="required"> * </em></label>
-                            <textarea id="fam1-address" class="input-box" placeholder="Place of residence" name="pg1-address" rows="4" cols="80"></textarea>
+                            <textarea id="fam1-address" class="input-box" placeholder="Place of residence" name="pg1-address" rows="4" cols="80" required></textarea>
                             <label class="form-label" for="fam1-email">Email</label>
                             <input id="fam1-email" class="input-box" type="email" placeholder="Parent/guardian email address" name="pg1-email">
                         </div>
@@ -190,15 +190,15 @@
                     <div class="docu-form">
                         <div class="form-item-vert">
                             <label class="form-label" for="file-bill">Utility Bill</label>
-                            <input id="file-bill" type="file" name="file-bill">
+                            <input id="file-bill" type="file" name="file-bill" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="file-birthcert">Birth Certificate</label>
-                            <input id="file-birthcert" type="file" name="file-birthcert">
+                            <input id="file-birthcert" type="file" name="file-birthcert" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="file-immucard">Immunization Card</label>
-                            <input id="file-immucard" type="file" name="file-immucard">
+                            <input id="file-immucard" type="file" name="file-immucard" required>
                         </div>
                     </div>
                 </section>
@@ -209,15 +209,15 @@
                     <div class="app-dec-info">
                         <div class="form-item-vert">
                             <label class="form-label" for="applicant">Applicant Name<em class="required"> * </em></label>
-                            <input class="input-box" type="text" placeholder="Your full name" name="applicant-name">
+                            <input class="input-box" type="text" placeholder="Your full name" name="applicant-name" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="relation">Relationship to Child<em class="required"> * </em></label>
-                            <input class="input-box" type="text" placeholder="Your legal relation to child" name="applicant-relation">
+                            <input class="input-box" type="text" placeholder="Your legal relation to child" name="applicant-relation" required>
                         </div>
                         <div class="form-item-vert">
                             <label class="form-label" for="child">Name of Child<em class="required"> * </em></label>
-                            <input class="input-box" type="text" placeholder="Child's full name" name="applicant-child">
+                            <input class="input-box" type="text" placeholder="Child's full name" name="applicant-child" required>
                         </div>
                     </div>
                     <section>
