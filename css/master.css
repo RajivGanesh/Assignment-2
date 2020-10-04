@@ -24,6 +24,12 @@ label {
     font-size: 0.85em;
 }
 
+small {
+    margin: 0.5em 0;
+    font-size: 0.75em;
+    color: red;
+}
+
 .wrapper {
     min-height: 100%;
     margin: auto;
@@ -150,7 +156,7 @@ footer p {
     outline: none;
     border: 1px solid transparent;
     border-top: none;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
     box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
     transition: background 0.25s, border-color 0.25s;
     text-align: center;
@@ -175,6 +181,35 @@ footer p {
     border: 1px solid #116EF2;
     box-shadow: 0px 0px 49px -1px rgba(87,139,242,0.5);
 }
+
+.input-box-valid {
+    background: #C1FFCC;
+    font-size: 0.85em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    outline: none;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    transition: background 0.25s, border-color 0.25s;
+    text-align: center;
+}
+
+.input-box-error {
+    background: #FFACA9;
+    font-size: 0.85em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    outline: none;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    transition: background 0.25s, border-color 0.25s;
+    text-align: center;
+}
+
 
 #form-details.form-section {
     display: flex;
@@ -350,6 +385,32 @@ footer p {
 	background-color:#fa0a2a;
 }
 .reset-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.print-btn {
+	box-shadow:inset 0px 1px 0px 0px #e0e0e0;
+	background:linear-gradient(to bottom, #d1d1d1 5%, #858585 100%);
+	background-color:#d1d1d1;
+	border-radius:12px;
+	border:1px solid #8f8f8f;
+	display:inline-block;
+	cursor:pointer;
+	color:#363636;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1em 2em;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b9c0c7;
+    margin: 1em;
+}
+.print-btn:hover {
+	background:linear-gradient(to bottom, #858585 5%, #d1d1d1 100%);
+	background-color:#858585;
+}
+.print-btn:active {
 	position:relative;
 	top:1px;
 }
